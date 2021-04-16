@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun listarCachorro(view: View) {
-
+        val listaCachorros = Intent(this, ListaCachorros::class.java)
+        startActivity(listaCachorros)
     }
 }
